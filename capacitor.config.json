@@ -1,0 +1,15 @@
+{
+  "appId": "com.embroidery.ledgerpro",
+  "appName": "Embroidery Ledger Pro",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": false,
+      "providers": ["google.com"]
+    }
+  }
+}
